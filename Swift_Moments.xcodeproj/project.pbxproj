@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		22773EE733B692A90D05FDDC /* Pods_Swift_Moments.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C21BF02F03ABEBB4B7DBCE /* Pods_Swift_Moments.framework */; };
 		CB14720E1ECB48F500183A14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB14720D1ECB48F500183A14 /* AppDelegate.swift */; };
-		CB1472101ECB48F500183A14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB14720F1ECB48F500183A14 /* ViewController.swift */; };
 		CB1472131ECB48F500183A14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB1472111ECB48F500183A14 /* Main.storyboard */; };
 		CB1472151ECB48F500183A14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB1472141ECB48F500183A14 /* Assets.xcassets */; };
 		CB1472181ECB48F500183A14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB1472161ECB48F500183A14 /* LaunchScreen.storyboard */; };
@@ -45,7 +44,6 @@
 		A64E51ADC5910FE4B6767414 /* Pods-Swift_Moments.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift_Moments.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift_Moments/Pods-Swift_Moments.release.xcconfig"; sourceTree = "<group>"; };
 		CB14720A1ECB48F500183A14 /* Swift_Moments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_Moments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB14720D1ECB48F500183A14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB14720F1ECB48F500183A14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CB1472121ECB48F500183A14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB1472141ECB48F500183A14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB1472171ECB48F500183A14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -136,7 +134,6 @@
 				CB1472481ECB4B0900183A14 /* Common.swift */,
 				CB14723B1ECB491900183A14 /* Momments */,
 				CB14720D1ECB48F500183A14 /* AppDelegate.swift */,
-				CB14720F1ECB48F500183A14 /* ViewController.swift */,
 				CB1472111ECB48F500183A14 /* Main.storyboard */,
 				CB1472141ECB48F500183A14 /* Assets.xcassets */,
 				CB1472161ECB48F500183A14 /* LaunchScreen.storyboard */,
@@ -368,7 +365,6 @@
 				CB1472441ECB4A5300183A14 /* MomentsFrame.swift in Sources */,
 				CB1472461ECB4A5300183A14 /* MomentsTableViewCell.swift in Sources */,
 				CB1472471ECB4A5300183A14 /* MomentsViewController.swift in Sources */,
-				CB1472101ECB48F500183A14 /* ViewController.swift in Sources */,
 				CB14720E1ECB48F500183A14 /* AppDelegate.swift in Sources */,
 				CB1472451ECB4A5300183A14 /* MomentsModel.swift in Sources */,
 			);

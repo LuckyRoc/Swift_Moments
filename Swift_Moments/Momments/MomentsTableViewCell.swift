@@ -20,7 +20,7 @@ class MomentsTableViewCell: UITableViewCell {
     var contentLabel: UILabel!
     var picturesView: [UIImageView] = [UIImageView]()
     var replayLabels: [UILabel] = [UILabel]()
-    var picCampusFrame: PicCampusFrame!
+    var MomentsFrame: MomentsFrame!
     var zanButton: UIButton!
     var zanLabel: UILabel!
     var replayTextField: UITextField!
@@ -139,7 +139,7 @@ class MomentsTableViewCell: UITableViewCell {
     }
     
     func settingtData(indexRow: Int) {
-        let MomentsModel: MomentsModel = self.picCampusFrame.MomentsModel!
+        let MomentsModel: MomentsModel = self.MomentsFrame.MomentsModel!
         
 //        iconView.kf.setImage(with: MomentsModel.userImageUrl)
         
@@ -208,27 +208,27 @@ class MomentsTableViewCell: UITableViewCell {
     }
     
     func settingFrame() {
-        iconView.frame = self.picCampusFrame.iconViewFrame!
-        nameLabel.frame = self.picCampusFrame.nameLabelFrame!
-        dayLabel.frame = self.picCampusFrame.dayLabelFrame!
-        contentLabel.frame = self.picCampusFrame.contentLabelFrame!
-        zanLabel.frame = self.picCampusFrame.zanLabelFrame!
-        zanButton.frame = self.picCampusFrame.zanButtonFrame!
-        replayTextField.frame = self.picCampusFrame.replayButtonFrame!
-        schoolLabel.frame = picCampusFrame.schoolFrame!
-        lineView.frame = self.picCampusFrame.lineViewFrame!
+        iconView.frame = self.MomentsFrame.iconViewFrame!
+        nameLabel.frame = self.MomentsFrame.nameLabelFrame!
+        dayLabel.frame = self.MomentsFrame.dayLabelFrame!
+        contentLabel.frame = self.MomentsFrame.contentLabelFrame!
+        zanLabel.frame = self.MomentsFrame.zanLabelFrame!
+        zanButton.frame = self.MomentsFrame.zanButtonFrame!
+        replayTextField.frame = self.MomentsFrame.replayButtonFrame!
+        schoolLabel.frame = MomentsFrame.schoolFrame!
+        lineView.frame = self.MomentsFrame.lineViewFrame!
         
-        for (index, element) in picCampusFrame.picturesViewFrame.enumerated() {
+        for (index, element) in MomentsFrame.picturesViewFrame.enumerated() {
             picturesView[index].frame = element
         }
         
-        for (index, element) in picCampusFrame.replyFrames.enumerated() {
+        for (index, element) in MomentsFrame.replyFrames.enumerated() {
             replayLabels[index].frame = element
         }
     }
     
-    func setFamilyGroupFrame(_ picCampusFrame: PicCampusFrame, indexRow: Int) {
-        self.picCampusFrame = picCampusFrame
+    func setFamilyGroupFrame(_ MomentsFrame: MomentsFrame, indexRow: Int) {
+        self.MomentsFrame = MomentsFrame
         
         for index in self.picturesView {
             let oicVIew = index

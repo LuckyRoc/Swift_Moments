@@ -1,5 +1,5 @@
 //
-//  PicCampusFrame.swift
+//  MomentsFrame.swift
 //  SiYear
 //
 //  Created by 程瑞朋 on 16/9/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PicCampusFrame: NSObject {
+class MomentsFrame: NSObject {
     
     var iconViewFrame: CGRect?
     var nameLabelFrame: CGRect?
